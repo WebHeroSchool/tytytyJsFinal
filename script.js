@@ -62,7 +62,7 @@ btn.onclick = () => {
     			setTimeout(() => {document.body.onclick = () => window.location.reload()}, 300);
     		}
     	}
-    }, 1000)
+    }, 100)
 }
 	else{
 		btn.innerHTML = 'Выберите уровень'
